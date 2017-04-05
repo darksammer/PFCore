@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'SeniorWebApp.urls'
+ROOT_URLCONF = 'PFCore.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'SeniorWebApp.wsgi.application'
+WSGI_APPLICATION = 'PFCore.wsgi.application'
 
 
 # Database
